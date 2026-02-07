@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create Account</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#020617,#0f172a);
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+/* SIGNUP CARD */
+.box{
+background:#111827;
+padding:35px;
+border-radius:18px;
+box-shadow:0 0 40px black;
+text-align:center;
+width:90%;
+max-width:350px;
+}
+
+h1{
+color:#22c55e;
+margin-bottom:5px;
+}
+
+.subtitle{
+color:gray;
+font-size:14px;
+margin-bottom:20px;
+}
+
+input{
+padding:14px;
+width:90%;
+margin:10px;
+border:none;
+border-radius:8px;
+background:#020617;
+color:white;
+font-size:15px;
+}
+
+button{
+padding:14px 30px;
+background:#22c55e;
+border:none;
+border-radius:8px;
+color:white;
+font-size:16px;
+width:90%;
+cursor:pointer;
+}
+
+button:hover{
+background:#16a34a;
+}
+
+a{
+color:#22c55e;
+text-decoration:none;
+}
+
+.footer{
+margin-top:15px;
+font-size:13px;
+color:gray;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>📝 Create Account</h1>
+<div class="subtitle">Join AI Trading System</div>
+
+<form method="post">
+<input name="username" placeholder="Enter Username" required>
+<input name="email" placeholder="Enter Email" required>
+<input name="password" type="password" placeholder="Create Password" required>
+<button type="submit">Signup</button>
+</form>
+
+<p>Already have account? <a href="/">Login</a></p>
+
+<div class="footer">
+Developed By Ishpreet Singh
+</div>
+
+</div>
+
+</body>
+</html>
